@@ -42,7 +42,11 @@ void countBits(int number) {
             numOnes++; // increment the numOnes by 1
         } else if (numOnes != 0) { // otherwise, increment numZeroes only if
             printf("0");           // numOnes is not 1 to ensure no leading zeroes are present 
+<<<<<<< HEAD
             numZeroes++;           
+=======
+            numZeroes++;
+>>>>>>> a309b96cda4108cdb4ebf5bb7ba0faacc4b7e4ac
         }
     }
 
