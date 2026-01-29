@@ -40,7 +40,7 @@ void countBits(int number) {
         if (number >> i & 1) {
             printf("1");
             numOnes++; // increment the numOnes by 1
-        } else if (numOnes != 0) { // otherwise, increment numZeroes only if 
+        } else if (numOnes != 0) { // otherwise, increment numZeroes only if numOnes has been incremented
             printf("0");
             numZeroes++;           // numOnes is not 1 to ensure no leading zeroes are present 
         }
