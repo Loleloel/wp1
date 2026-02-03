@@ -11,7 +11,9 @@ int main(int argc, char **argv) {
         puts("Error: No arguments provided. Run the program with the '-h' flag for help.");
     return 0;
     } else if (strcmp(argv[1], "-h") == 0) { // check for the help flag
-        puts("Help menu here");
+        puts("--------- HELP MENU ---------");
+        puts("\nAn argument in decimal form is required when running this program.");
+        puts("Example: ./dec2bin 183 should evaluate to 10110111");
         return 0;
     }
 
