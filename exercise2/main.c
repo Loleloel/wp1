@@ -20,7 +20,7 @@ int main(void) {
                 // if c is in the lower half of the alphabet, shift c up by 13 letters
                 if ('A' <= c && 'M' >= c || 'a' <= c && 'm' >= c) {
                     word[i] += 13;
-                } else if ('N' <= c && 'Z' >= c || 'n' <= c && 'z' >= c) { // else shift down by 13 letters
+                } else { // c is in the upper half of the alphabet, shift c down by 13 letters
                     word[i] -= 13;
                 }
             }
